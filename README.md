@@ -1,4 +1,4 @@
 huynhrichy-github-io
 ====================
 
-User page
+User Page
