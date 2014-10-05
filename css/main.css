@@ -1,5 +1,86 @@
 * {
-	/* outline: #BDBDBD 1px dotted; */
+	/* outline: 1px dotted gray; */
+}
+
+body, html, .main {
+	width: 100%;
+	height: 100%;
+}
+
+.main {
+	/* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	color: #354B58;
+}
+
+.page {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+#title, #projects {
+	background-color: #B6C1D0;
+}
+
+#about, #contact {
+	background-color: #9cb4d2;
+}
+
+#title {
+	text-align: center;
+}
+
+#name {
+	font-size: 80pt;
+	/* margin-top: 50px; */
+	padding-top: 17%;
+}
+
+#subtitle {
+	/* make relative to #name */
+	font-size: 16pt;
+/* 	position: relative;
+top: 15px;
+left: 300px; */
+	padding-top: 35px;
+}
+
+#about {
+	text-align: center;
+}
+
+#photo {
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin-top: 12%;
+}
+
+#intro {
+	margin-top: 50px;
+}
+
+#projects {
+	text-align: center;
+}
+
+#projects-header {
+	padding-top: 30px;
+	font-size: 48pt;
+}
+
+#contact {
+	text-align: center;
+}
+
+#contact-header { 
+	
+	padding-top: 30px;
+}
+
+/*
+* {
 }
 
 body {
@@ -37,8 +118,6 @@ body {
 }
 
 #question, #choices li {
-/* 	padding-top: 10px;
-padding-bottom: 10px; */
 }
 
 #question {
@@ -49,9 +128,6 @@ padding-bottom: 10px; */
 
 #choices, #buttons {
 	padding-top: 10px;
-	padding-bottom: 15px;
-/* 	border-top: 1px solid #BDBDBD;
-border-bottom: 1px #BDBDBD; */
 
 }
 
@@ -59,7 +135,6 @@ border-bottom: 1px #BDBDBD; */
 	font-size: 16pt;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	/* border: 1px solid #BDBDBD; */
 }
 
 .select, #next {
@@ -68,8 +143,6 @@ border-bottom: 1px #BDBDBD; */
 
 #next, #buttons {
 	position: absolute;
-	/* right: 335px; */
-	/* right: 350px; */
 	right: 25.5%;
 	width: 100px;
 }
@@ -89,9 +162,7 @@ border-bottom: 1px #BDBDBD; */
 
 #buttons li, #next {
 	 border: 1px solid #A4A4A4; 
-	/* border: 1px solid #585858; */
 	border-radius: 5px;
-	/* background-color: white; */ 
 }
 
 #buttons li {
@@ -140,7 +211,7 @@ border-bottom: 1px #BDBDBD; */
 	margin-right: 5px;
 	margin-left: 5px;
 }
-
+*/
 
 /* ************************************************** */
 
