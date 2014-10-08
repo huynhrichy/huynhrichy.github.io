@@ -1,5 +1,5 @@
 * {
-	outline: 1px dotted gray;
+	/* outline: 1px dotted gray; */
 }
 
 body, html, .main {
@@ -10,7 +10,7 @@ body, html, .main {
 .main {
 	/* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	color: #354B58;
+	color: #8E6C6E;
 }
 
 .page {
@@ -20,11 +20,11 @@ body, html, .main {
 }
 
 #title, #projects {
-	background-color: #B6C1D0;
+	background-color: #E4E4E2;
 }
 
 #about, #contact {
-	background-color: #9cb4d2;
+	background-color: #B9C8CD;
 }
 
 #title {
@@ -39,7 +39,7 @@ body, html, .main {
 
 #subtitle {
 	/* make relative to #name */
-	font-size: 16pt;
+	font-size: 24px;
 /* 	position: relative;
 top: 15px;
 left: 300px; */
@@ -48,17 +48,18 @@ left: 300px; */
 
 #about {
 	text-align: center;
+	font-size: 24px;
 }
 
 #photo {
 	width: 250px;
 	height: 250px;
 	border-radius: 100%;
-	margin-top: 12%;
+	margin-top: 10%;
 }
 
 #intro {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 #projects {
@@ -80,21 +81,34 @@ left: 300px; */
 }
 
 .project {
+	text-align: center;
+	width: auto;
+	height: 90px;
+      margin: 0 auto;	
+      margin-top: 50px;
+	border: 5px solid #B9C8CD;
+}
+
+
+/*
+.project {
   width:  200px;
   height: 150px;
   border: 1px solid;
   text-align: center;
 	background-color: red;
 	margin: 10px;
+	border-radius: 25px;
 }
 
 #grid {
 	text-align: center;
 	top: 7%;
 	//margin-top: 50%;
-	left: 8.9%;
       margin: 0 auto;
+      max-width: 1000px;
 }
+*/
 
 
 /*

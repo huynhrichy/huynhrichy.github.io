@@ -2,7 +2,7 @@
 $(document).ready(function() {
 	$('#name').hide().fadeIn(1000, function() {
 	});
-
+/*
 	var grid = document.querySelector('#grid');
 
 var msnry = new Masonry(grid, {
@@ -14,5 +14,5 @@ var msnry = new Masonry(grid, {
 
 	//isOriginLeft:
 });
-
+*/
 });
