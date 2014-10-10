@@ -10,7 +10,7 @@ body, html, .main {
 .main {
 	/* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	color: #8E6C6E;
+	color: #066FB0;
 }
 
 .page {
@@ -20,11 +20,11 @@ body, html, .main {
 }
 
 #title, #projects {
-	background-color: #E4E4E2;
+	background-color: #E6E5E1;
 }
 
 #about, #contact {
-	background-color: #B9C8CD;
+	background-color: #B4CBCF;
 }
 
 #title {
@@ -83,323 +83,30 @@ left: 300px; */
 .project {
 	text-align: center;
 	width: auto;
-	height: 90px;
+	height: 8%;
       margin: 0 auto;	
       margin-top: 50px;
-	border: 5px solid #B9C8CD;
+	border: 5px solid #099DDB;
 }
 
-
-/*
-.project {
-  width:  200px;
-  height: 150px;
-  border: 1px solid;
-  text-align: center;
-	background-color: red;
-	margin: 10px;
-	border-radius: 25px;
-}
-
-#grid {
+.contact {
 	text-align: center;
-	top: 7%;
-	//margin-top: 50%;
-      margin: 0 auto;
-      max-width: 1000px;
-}
-*/
-
-
-/*
-* {
-}
-
-body {
-	background-color: #E6E6E6;
-}
-
-.main {
-	display: none;
-	color: #585858;
-	margin-top: 75px;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 16pt;
-}
-
-#title {
-	text-align: center;
-	font-weight: bold;
-	font-size: 48pt;
-	margin-bottom: 85px;
-	cursor: default;
-
-	margin-top: 200px;
-}
-
-#quiz, #progress {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-
-	text-align: center;
-	width: 450px;
-}
-
-#question, #choices li {
-}
-
-#question {
-	font-size: 24pt;
-	padding-top: 15px;
-	padding-bottom: 15px;
-}
-
-#choices, #buttons {
-	padding-top: 10px;
+	width: auto;
+	height: 15%;
+	margin: 0 auto;
+	margin-top: 50px;
 
 }
 
-#choices li, #buttons li, #next {
-	font-size: 16pt;
-	padding-top: 10px;
-	padding-bottom: 10px;
+.project, .contact {
+	opacity: 0.66;
+	-o-transition:.66s;
+ 	-ms-transition:.66s;
+  	-moz-transition:.66s;
+  	-webkit-transition:.66s;
+  	transition:.66s;
 }
 
-.select, #next {
-	background-color: white;
+.project:hover, .contact:hover {
+	opacity: 1;
 }
-
-#next, #buttons {
-	position: absolute;
-	right: 25.5%;
-	width: 100px;
-}
-
-#next {
-	font-size: 24px;
-	top: 250px;
-	background-color: white;
-}
-
-#buttons {
-	top: 320px;
-	background-color: transparent;
-	padding-top: 5px;
-	padding-bottom: 5px;
-}
-
-#buttons li, #next {
-	 border: 1px solid #A4A4A4; 
-	border-radius: 5px;
-}
-
-#buttons li {
-	padding-top: 9px;
-	padding-bottom: 9px;
-	margin-bottom: 1px;
-	margin-top: 1px;
-}
-
-.highlighted {
-	background-color: #D8D8D8;
-}
-
-.selected {
-	background-color: #BDBDBD;
-}
-
-.correct {
-	background-color: #9AFE2E;
-}
-
-
-.incorrect {
-	background-color: #FA5858;
-}
-
-.current {
-	background-color: white;
-}
-
-.remaining {
-	background-color: #BDBDBD;
-}
-
-#progress {
-	margin-top: 90px;
-	background-color: transparent;
-}
-
-#progress div {
-	display: inline-block;
-	border-radius: 3px;
-	border: 1px solid #A4A4A4;
-	width: 25px;
-	height: 25px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-*/
-
-/* ************************************************** */
-
-/* table {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
-	background-color: white;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 16pt;
-}
-
-td {
-	padding: 6px;
-	vertical-align: middle;
-}
-
-tr:first-child td {
-	height: 50px;
-	vertical-align: bottom;
-}
-
-tr:first-child td:nth-child(3) {
-	padding-bottom: 17px;
-	padding-left: 6px;
-}
-
-tr:first-child td:nth-child(2) {
-	padding-bottom: 11px;
-	padding-left: 1px;
-	padding-right: 0px;
-}
-
-#enter-item-row:nth-child(1) {
-	height: 63px;
-}
-
-#item-box {
-	width: inherit;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-size: 16pt;
-	color: #585858;
-}
-
-.store-button-no-items {
-	padding-top: 26px;
-}
-
-.item-box-no-items {
-	padding-top: 26px;
-}
-
-#store-button {
-	width: 25px;
-	height: 25px;
-	opacity: 0.75;
-	vertical-align: bottom;
-}
-
-.unchecked-box, .checked-box {
-	width: 20px;
-	height: 20px;
-	opacity: 0.725;
-}
-
-.unchecked-box:active, .checked-box:active {
-	opacity: 0.5;
-}
-
-.box-active {
-	opacity: 0.5;
-	background-color: red;
-	color: purple;
-}
-
-.item-name {
-	opacity: 0.75;
-	color: black;
-	cursor: default;
-}
-
-#store-button:hover, .unchecked-box:hover, .checked-box:hover, .item-name:hover {
-	opacity: 0.933;
-}
-
-#store-button:active {
-	opacity: 0.7;
-}
-
-td:nth-child(1), td:nth-child(3) {
-
-	width: 36px;
-}
-
-td:nth-child(1) {
-	text-align: right;
-	padding-top: 8px;
-}
-
-.done td:nth-child(1) {
-	opacity: 0.67;
-}
-
-.delete-button {
-	width: 25px;
-	height: 25px;
-	opacity: 0.67;
-}
-
-td:nth-child(3) {
-	text-align: left;
-}
-
-.done td:nth-child(3) {
-	opacity: 0.7;
-}
-
-.delete-button:hover {
-	opacity: 0.85;
-}
-
-.delete-button:active {
-	opacity: 0.4;
-}
-
-.done td:nth-child(2) {
-	opacity: 0.5;
-}
-
-tr:last-child td {
-	height: 37px;
-	vertical-align: top;
-} */
-
-
-/* ******************************************************************************* */
-
-
-/* * {
-	outline: #BDBDBD 1px dotted;
-} */
-
-/* body {
-	background-color: #E6E6E6;
-} */
-
-/* .main {
-	font-family: "Rockwell Extra Bold", "Rockwell Bold", monospace;
-	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-family: Cambria, Georgia, serif;
-} */
-
-/*.question {
-	color: #585858;
-	font-size: 56pt;
-}
-*/
